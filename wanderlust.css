@@ -1,0 +1,45 @@
+.header {
+    font-family: 'Kumar One Outline', cursive;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.locations {
+    font-family: 'Raleway', sans-serif;
+}
+
+.locations .loc {
+    width: 100%;
+    height: 250px;
+    border: 1px solid lightgrey;
+    
+}
+
+.locations img {
+    width: 100%;
+    height: 100%;
+}
+
+.locations .loc .title {
+    text-align: center;
+    margin-top: -130px;
+    font-size: 36px;
+    cursor: pointer;
+    z-index: 1000;
+    font-weight: 400;
+    opacity: 1;
+    //color: #fff;
+}
+
+
+.locations .loc a:hover {
+    color: rgb(233, 30, 99);
+
+}
+
+.description {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+    font-family: 'Raleway', sans-serif;
+}
